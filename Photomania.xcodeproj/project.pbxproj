@@ -63,6 +63,8 @@
 		51086ABF0D9CC0DACC5E19B8 /* Pods-Photomania.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photomania.release.xcconfig"; path = "Pods/Target Support Files/Pods-Photomania/Pods-Photomania.release.xcconfig"; sourceTree = "<group>"; };
 		788897C6B2C638E72AA45EBA /* Pods-Photomania.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photomania.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Photomania/Pods-Photomania.debug.xcconfig"; sourceTree = "<group>"; };
 		DC354ECC1A9979E8001ACC3E /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		DC354ECD1A997A26001ACC3E /* Photomania.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Photomania.xcconfig; sourceTree = "<group>"; };
+		DC354ECE1A997A37001ACC3E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		FE0F53CAADD22B877FD689E7 /* Pods_Photomania.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Photomania.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -162,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				DC354ECC1A9979E8001ACC3E /* Debug.xcconfig */,
+				DC354ECD1A997A26001ACC3E /* Photomania.xcconfig */,
+				DC354ECE1A997A37001ACC3E /* Release.xcconfig */,
 			);
 			path = Config;
 			sourceTree = "<group>";

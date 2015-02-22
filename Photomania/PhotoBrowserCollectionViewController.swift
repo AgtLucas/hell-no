@@ -25,7 +25,7 @@ class PhotoBrowserCollectionViewController: UICollectionViewController, UICollec
     
     setupView()
 
-    Alamofire.request(.GET, "https://api.500px.com/v1/photos", parameters: ["consumer_key": CONSUMER_KEY]).responseJSON() {
+    Alamofire.request(.GET, "https://api.500px.com/v1/photos", parameters: ["consumer_key": "CONSUMER_KEY"]).responseJSON() {
         (_, _, data, _) in
         println(data)
     }
