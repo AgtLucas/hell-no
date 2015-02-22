@@ -8,6 +8,8 @@
 
 import UIKit
 
+import Alamofire
+
 class PhotoBrowserCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
   var photos = NSMutableOrderedSet()
   
