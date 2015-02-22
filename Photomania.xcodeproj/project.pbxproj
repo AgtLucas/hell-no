@@ -62,7 +62,7 @@
 		22F2B03019A5C4B100939296 /* PhotoBrowserCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBrowserCollectionViewController.swift; sourceTree = "<group>"; };
 		51086ABF0D9CC0DACC5E19B8 /* Pods-Photomania.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photomania.release.xcconfig"; path = "Pods/Target Support Files/Pods-Photomania/Pods-Photomania.release.xcconfig"; sourceTree = "<group>"; };
 		788897C6B2C638E72AA45EBA /* Pods-Photomania.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photomania.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Photomania/Pods-Photomania.debug.xcconfig"; sourceTree = "<group>"; };
-		DC354EC81A99781B001ACC3E /* debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = debug.xcconfig; path = Photomania/debug.xcconfig; sourceTree = "<group>"; };
+		DC354ECC1A9979E8001ACC3E /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		FE0F53CAADD22B877FD689E7 /* Pods_Photomania.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Photomania.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -88,7 +88,7 @@
 		22F2B00219A5C39900939296 = {
 			isa = PBXGroup;
 			children = (
-				DC354EC81A99781B001ACC3E /* debug.xcconfig */,
+				DC354ECB1A9979DE001ACC3E /* Config */,
 				22F2B00D19A5C39900939296 /* Photomania */,
 				22F2B02019A5C39A00939296 /* PhotomaniaTests */,
 				22F2B00C19A5C39900939296 /* Products */,
@@ -156,6 +156,14 @@
 				51086ABF0D9CC0DACC5E19B8 /* Pods-Photomania.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC354ECB1A9979DE001ACC3E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				DC354ECC1A9979E8001ACC3E /* Debug.xcconfig */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 		F31867284CB78E7245DFEDBF /* Frameworks */ = {
