@@ -372,6 +372,7 @@
 /* Begin XCBuildConfiguration section */
 		22F2B02519A5C39A00939296 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC354ECD1A997A26001ACC3E /* Photomania.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -414,6 +415,7 @@
 		};
 		22F2B02619A5C39A00939296 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC354ECD1A997A26001ACC3E /* Photomania.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
