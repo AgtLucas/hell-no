@@ -10,167 +10,85 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>086FAE882712A2D6CCA12016</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>B71463BB9F4EA9AB363249B4</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>46CFB1D79B993699AE40447E</string>
-			<key>remoteInfo</key>
-			<string>Pods-Photomania-Alamofire</string>
-		</dict>
-		<key>0DB86BC8E9B9A9ADD0998114</key>
-		<dict>
-			<key>fileRef</key>
-			<string>642EEAA5FC0EC6C32A215467</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1D75B1B190F8E67D5D9D2A86</key>
+		<key>029A06AF3926A88B9D8B9AF4</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>29B95B8F2625689770D9C3B1</string>
+				<string>B98F8145E672E7A512A9B5F9</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>273AB2377B87ED5439F1E1D8</key>
+		<key>17FB278CD2F9ADCA3B480D01</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>DEAA8645AAFED5D56D1B3D58</string>
-			<key>buildPhases</key>
+			<key>children</key>
 			<array>
-				<string>3E14845DB2D153B1E385E451</string>
-				<string>44182EBD8FF2CD1064CBE011</string>
-				<string>3BB3127E6E7C934306E2EC21</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>92393699A574A13D35F5474B</string>
+				<string>35E55060C73E0F8C397C614F</string>
 			</array>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Pods-Photomania</string>
-			<key>productName</key>
-			<string>Pods-Photomania</string>
-			<key>productReference</key>
-			<string>D6F2803224E064053C104E19</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>29B95B8F2625689770D9C3B1</key>
+		<key>182E3B6EF7922B90BC239031</key>
 		<dict>
-			<key>fileRef</key>
-			<string>7009ED4F570888A714B0F411</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>349F6ED1455190FE818712B1</key>
+		<key>189EE6C9506A2654036196CF</key>
 		<dict>
-			<key>fileRef</key>
-			<string>7009ED4F570888A714B0F411</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-Photomania-Alamofire-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>35DE30261A7AAD49B85344C7</key>
+		<key>18ED63DDA4AABC797A507A89</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D8583F4FAEF5664732CCFF7B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Photomania/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Photomania/Pods-Photomania.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Photomania</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
+			<key>children</key>
+			<array>
+				<string>CD169702293D7ABC596C7FF3</string>
+			</array>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Release</string>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3BB3127E6E7C934306E2EC21</key>
+		<key>1C5D4DFD6F783CBB316AF1D8</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>F23DE3E08E3E1D8652A99936</string>
+				<string>5D80757C53101437E28050E9</string>
 			</array>
 			<key>isa</key>
 			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>3E14845DB2D153B1E385E451</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0DB86BC8E9B9A9ADD0998114</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3F398BFC333ABF40540FF571</key>
+		<key>20B3620BE24B467F6E74BD5F</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -241,58 +159,110 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>41091E319626617C41B64B56</key>
+		<key>24320AEDBDB7983DFDA86F89</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>182E3B6EF7922B90BC239031</string>
+				<string>D16E503ED49DFF815E491658</string>
+				<string>FF480F74620536A0C03379F2</string>
+				<string>E65B1AF9DF5688CFCFD610B4</string>
+				<string>3E491EA7C6EC11B42332A81C</string>
+				<string>189EE6C9506A2654036196CF</string>
+				<string>79627D0290B9C601ECDC8FBA</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
 			<key>path</key>
-			<string>Pods-Photomania-acknowledgements.plist</string>
+			<string>../Target Support Files/Pods-Photomania-Alamofire</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>44182EBD8FF2CD1064CBE011</key>
+		<key>247DEE1A95D3EA53EF2285D6</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>90C7DE2ACFDE8CC244469C60</string>
+				<string>17FB278CD2F9ADCA3B480D01</string>
+				<string>C254D8D4FD48F70648EE25CA</string>
+				<string>70EDF12C966089C48502ADFD</string>
+				<string>18ED63DDA4AABC797A507A89</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EA3806BE2F383B744821E87</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>C10DA563AECC2F319D830212</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>D3B3A3AA5C39FA9BCD96588F</string>
+			<key>remoteInfo</key>
+			<string>Pods-Photomania-Alamofire</string>
+		</dict>
+		<key>304D9DA87A39A268E0394F9B</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>349F6ED1455190FE818712B1</string>
+				<string>F570E8F71992665E3AC7AA1B</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>46CFB1D79B993699AE40447E</key>
+		<key>35E55060C73E0F8C397C614F</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>76434449D0EACFE9A067E57C</string>
-			<key>buildPhases</key>
+			<key>children</key>
 			<array>
-				<string>8EC3F18509017F91ACD04C15</string>
-				<string>1D75B1B190F8E67D5D9D2A86</string>
-				<string>BFAE9A0C2A83208220D5BCE3</string>
+				<string>374A18F10480AEAE6CAE2697</string>
 			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Pods-Photomania-Alamofire</string>
-			<key>productName</key>
-			<string>Pods-Photomania-Alamofire</string>
-			<key>productReference</key>
-			<string>4AE6E09A0BA0A6B7438A5632</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4AE6E09A0BA0A6B7438A5632</key>
+		<key>374A18F10480AEAE6CAE2697</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>394F2A0DC4C84F19F3975BDE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>Alamofire.swift</string>
+			<key>path</key>
+			<string>Source/Alamofire.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3A9FEF2AD2759C5D92C1E2C1</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>wrapper.framework</string>
@@ -307,39 +277,73 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>537034E3327E7C0E21AB7876</key>
+		<key>3BBBF2D0A58DDED87BA426FF</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>C7F430D6456A8966BC872BD1</string>
-				<string>85BE1553AD44C61BA7BCDD8F</string>
-				<string>B0E8DE2B4ECFDD5D83F3C3F1</string>
-				<string>41091E319626617C41B64B56</string>
-				<string>642EEAA5FC0EC6C32A215467</string>
-				<string>DE56C248F678C59BCAE99D0F</string>
-				<string>C133D0A4B8F22DDA2D8DC424</string>
-				<string>82F76C24B939257E923C7728</string>
-				<string>6953C88B5D1B09C161164122</string>
-				<string>FE784783E14D8F5EBFCD2AFE</string>
-				<string>D8583F4FAEF5664732CCFF7B</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Photomania</string>
+			<string>PBXFileReference</string>
 			<key>path</key>
-			<string>Target Support Files/Pods-Photomania</string>
+			<string>Pods-Photomania.modulemap</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>588AF25B9D633C18CE33ED6E</key>
+		<key>3CD2F71E3F581B10ACC0357B</key>
 		<dict>
-			<key>fileRef</key>
-			<string>CE42046951FA9118E62F3FCF</string>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_Photomania.framework</string>
+			<key>path</key>
+			<string>Pods_Photomania.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>642EEAA5FC0EC6C32A215467</key>
+		<key>3DDB864CCF68D02DCC9A107B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>20B3620BE24B467F6E74BD5F</string>
+				<string>FCDB44B62A3C6FF55111FB46</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>3E491EA7C6EC11B42332A81C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-Photomania-Alamofire-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4158983EF876C6C42032FEC3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-Photomania-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>42673DE7C59C496029D0252D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -352,48 +356,94 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6953C88B5D1B09C161164122</key>
+		<key>465EF9F579AF84DF18AE3A34</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E491EA7C6EC11B42332A81C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>55792073AC009B6A78317750</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D91B02E719817C118C7ADF0F</string>
+				<string>465EF9F579AF84DF18AE3A34</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>5D80757C53101437E28050E9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>79627D0290B9C601ECDC8FBA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>67389F761CA38B20BB5E7E63</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-Photomania-Alamofire</string>
+			<key>target</key>
+			<string>D3B3A3AA5C39FA9BCD96588F</string>
+			<key>targetProxy</key>
+			<string>2EA3806BE2F383B744821E87</string>
+		</dict>
+		<key>6AF662F2EB9601C05B6D9CAB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>text.script.sh</string>
 			<key>path</key>
-			<string>Pods-Photomania-umbrella.h</string>
+			<string>Pods-Photomania-frameworks.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7009ED4F570888A714B0F411</key>
+		<key>6EFFEF071FD5D475BA494EDC</key>
 		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9BF9785162B29FBD0DE9C1F0</string>
+				<string>C5D6FEF5B3F0C141A6522903</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>70C02F58750DE0A77A6DF54D</key>
+		<key>70EDF12C966089C48502ADFD</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>8779D3E7F38FC83669169480</string>
-				<string>B5B2AD40C7A7895EA9B45D15</string>
-				<string>EE4CB83C30497A32AFF57F99</string>
-				<string>87014EF606262B633C23080F</string>
-				<string>9AAC3C8C54963E3E746DED5B</string>
+				<string>3A9FEF2AD2759C5D92C1E2C1</string>
+				<string>3CD2F71E3F581B10ACC0357B</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>75F8333685BC2D880836B01A</key>
+		<key>77CBAC8632DF0E3063E6BB5A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -406,26 +456,177 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>76434449D0EACFE9A067E57C</key>
+		<key>79627D0290B9C601ECDC8FBA</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D8E19CA063BEE3E9AC5D9788</string>
-				<string>7B20FA5B64E1DE24CCC9FE42</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-Photomania-Alamofire-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>76836D57041CA1EE2160902B</key>
+		<key>88E4E18F1300367FF2E0E30A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-Photomania-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8F6C084F544EF1D640925C1A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-Photomania-environment.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>90C7DE2ACFDE8CC244469C60</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>933C30F31D6DE82F35184C71</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-Photomania-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9AB3859541AA8F79D91839F9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Photomania.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9BF9785162B29FBD0DE9C1F0</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>E65B1AF9DF5688CFCFD610B4</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-Photomania-Alamofire/Pods-Photomania-Alamofire-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-Photomania-Alamofire/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-Photomania-Alamofire/Pods-Photomania-Alamofire.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>Alamofire</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>A99E1D79C8C781185A313BB8</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>F4D3397E9A058C3BFE1FC18C</string>
+			<key>buildPhases</key>
+			<array>
+				<string>CBAB8C42F0F4F5489C756DA6</string>
+				<string>304D9DA87A39A268E0394F9B</string>
+				<string>C32D504923DC5B1F36CAB0ED</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>67389F761CA38B20BB5E7E63</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Photomania</string>
+			<key>productName</key>
+			<string>Pods-Photomania</string>
+			<key>productReference</key>
+			<string>3CD2F71E3F581B10ACC0357B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>AA8731D581A9682403C92344</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>92C652B657688AF9F7AFB0B6</string>
-				<string>82D17E2C3DA97843AD74B24E</string>
+				<string>394F2A0DC4C84F19F3975BDE</string>
+				<string>24320AEDBDB7983DFDA86F89</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -436,23 +637,37 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>789642DAF82960B6F0EA9E36</key>
+		<key>B34A62C1891C4C684C3C0481</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>7009ED4F570888A714B0F411</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-Photomania-acknowledgements.markdown</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>78D0EFD597D773E3AEE894EC</key>
+		<key>B491AABA1EA77A9EF5FD34ED</key>
+		<dict>
+			<key>fileRef</key>
+			<string>42673DE7C59C496029D0252D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B98F8145E672E7A512A9B5F9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>374A18F10480AEAE6CAE2697</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BF5DF1FA72204F3B01BBE887</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>FE784783E14D8F5EBFCD2AFE</string>
+			<string>F87C8F26B3E03B2F60E48C41</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -509,10 +724,73 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>7B20FA5B64E1DE24CCC9FE42</key>
+		<key>C10DA563AECC2F319D830212</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>3DDB864CCF68D02DCC9A107B</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>247DEE1A95D3EA53EF2285D6</string>
+			<key>productRefGroup</key>
+			<string>70EDF12C966089C48502ADFD</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>A99E1D79C8C781185A313BB8</string>
+				<string>D3B3A3AA5C39FA9BCD96588F</string>
+			</array>
+		</dict>
+		<key>C254D8D4FD48F70648EE25CA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>AA8731D581A9682403C92344</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C32D504923DC5B1F36CAB0ED</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>FC43211651A053E4E9B63D24</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C5D6FEF5B3F0C141A6522903</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>C25679B26514ECE9825C5E62</string>
+			<string>E65B1AF9DF5688CFCFD610B4</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -565,83 +843,45 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>82D17E2C3DA97843AD74B24E</key>
+		<key>CBAB8C42F0F4F5489C756DA6</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B491AABA1EA77A9EF5FD34ED</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>CD169702293D7ABC596C7FF3</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>75F8333685BC2D880836B01A</string>
-				<string>8D8BCB96004AD576C5312102</string>
-				<string>90882EEB470705B32DC379AC</string>
-				<string>C25679B26514ECE9825C5E62</string>
-				<string>CE42046951FA9118E62F3FCF</string>
-				<string>BFC711D5A245569A3E7A60B4</string>
-				<string>FBA9E15F1AFE6DD743AB32BD</string>
+				<string>77CBAC8632DF0E3063E6BB5A</string>
+				<string>3BBBF2D0A58DDED87BA426FF</string>
+				<string>B34A62C1891C4C684C3C0481</string>
+				<string>933C30F31D6DE82F35184C71</string>
+				<string>42673DE7C59C496029D0252D</string>
+				<string>8F6C084F544EF1D640925C1A</string>
+				<string>6AF662F2EB9601C05B6D9CAB</string>
+				<string>4158983EF876C6C42032FEC3</string>
+				<string>88E4E18F1300367FF2E0E30A</string>
+				<string>F87C8F26B3E03B2F60E48C41</string>
+				<string>9AB3859541AA8F79D91839F9</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Support Files</string>
+			<string>Pods-Photomania</string>
 			<key>path</key>
-			<string>../Target Support Files/Pods-Photomania-Alamofire</string>
+			<string>Target Support Files/Pods-Photomania</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>82F76C24B939257E923C7728</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Photomania-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85BE1553AD44C61BA7BCDD8F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-Photomania.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>87014EF606262B633C23080F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4AE6E09A0BA0A6B7438A5632</string>
-				<string>D6F2803224E064053C104E19</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8779D3E7F38FC83669169480</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>8D8BCB96004AD576C5312102</key>
+		<key>D16E503ED49DFF815E491658</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -652,21 +892,99 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8EC3F18509017F91ACD04C15</key>
+		<key>D3B3A3AA5C39FA9BCD96588F</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>buildConfigurationList</key>
+			<string>6EFFEF071FD5D475BA494EDC</string>
+			<key>buildPhases</key>
 			<array>
-				<string>BCBC1F5DF4C3BD0B34715781</string>
-				<string>588AF25B9D633C18CE33ED6E</string>
+				<string>55792073AC009B6A78317750</string>
+				<string>029A06AF3926A88B9D8B9AF4</string>
+				<string>1C5D4DFD6F783CBB316AF1D8</string>
 			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Photomania-Alamofire</string>
+			<key>productName</key>
+			<string>Pods-Photomania-Alamofire</string>
+			<key>productReference</key>
+			<string>3A9FEF2AD2759C5D92C1E2C1</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
 		</dict>
-		<key>90882EEB470705B32DC379AC</key>
+		<key>D91B02E719817C118C7ADF0F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>394F2A0DC4C84F19F3975BDE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E5D21BE04569D5F3D39C9A81</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>9AB3859541AA8F79D91839F9</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-Photomania/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-Photomania/Pods-Photomania.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_Photomania</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>E65B1AF9DF5688CFCFD610B4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -675,50 +993,59 @@
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods-Photomania-Alamofire.xcconfig</string>
+			<string>Pods-Photomania-Alamofire-Private.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>92393699A574A13D35F5474B</key>
+		<key>F4D3397E9A058C3BFE1FC18C</key>
 		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>BF5DF1FA72204F3B01BBE887</string>
+				<string>E5D21BE04569D5F3D39C9A81</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Photomania-Alamofire</string>
-			<key>target</key>
-			<string>46CFB1D79B993699AE40447E</string>
-			<key>targetProxy</key>
-			<string>086FAE882712A2D6CCA12016</string>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>92C652B657688AF9F7AFB0B6</key>
+		<key>F570E8F71992665E3AC7AA1B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>374A18F10480AEAE6CAE2697</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F87C8F26B3E03B2F60E48C41</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Alamofire.swift</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Source/Alamofire.swift</string>
+			<string>Pods-Photomania.debug.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9AAC3C8C54963E3E746DED5B</key>
+		<key>FC43211651A053E4E9B63D24</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>537034E3327E7C0E21AB7876</string>
-			</array>
+			<key>fileRef</key>
+			<string>88E4E18F1300367FF2E0E30A</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
-		<key>AEDAC4A0A527A8721B219767</key>
+		<key>FCDB44B62A3C6FF55111FB46</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -784,116 +1111,7 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>B0E8DE2B4ECFDD5D83F3C3F1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Photomania-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B5B2AD40C7A7895EA9B45D15</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>789642DAF82960B6F0EA9E36</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B71463BB9F4EA9AB363249B4</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>EF028DADF312CA75024CC3F7</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>70C02F58750DE0A77A6DF54D</string>
-			<key>productRefGroup</key>
-			<string>87014EF606262B633C23080F</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>273AB2377B87ED5439F1E1D8</string>
-				<string>46CFB1D79B993699AE40447E</string>
-			</array>
-		</dict>
-		<key>BCBC1F5DF4C3BD0B34715781</key>
-		<dict>
-			<key>fileRef</key>
-			<string>92C652B657688AF9F7AFB0B6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BFAE9A0C2A83208220D5BCE3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D2E82CF9DDF2E39A492F5691</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BFC711D5A245569A3E7A60B4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Photomania-Alamofire-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C133D0A4B8F22DDA2D8DC424</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Photomania-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C25679B26514ECE9825C5E62</key>
+		<key>FF480F74620536A0C03379F2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -902,230 +1120,12 @@
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods-Photomania-Alamofire-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7F430D6456A8966BC872BD1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CE42046951FA9118E62F3FCF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Photomania-Alamofire-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D2E82CF9DDF2E39A492F5691</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FBA9E15F1AFE6DD743AB32BD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D6F2803224E064053C104E19</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_Photomania.framework</string>
-			<key>path</key>
-			<string>Pods_Photomania.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D8583F4FAEF5664732CCFF7B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Photomania.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D8E19CA063BEE3E9AC5D9788</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C25679B26514ECE9825C5E62</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Photomania-Alamofire/Pods-Photomania-Alamofire-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Photomania-Alamofire/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Photomania-Alamofire/Pods-Photomania-Alamofire.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>Alamofire</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>DE56C248F678C59BCAE99D0F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Photomania-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DEAA8645AAFED5D56D1B3D58</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>78D0EFD597D773E3AEE894EC</string>
-				<string>35DE30261A7AAD49B85344C7</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>EE4CB83C30497A32AFF57F99</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>76836D57041CA1EE2160902B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF028DADF312CA75024CC3F7</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3F398BFC333ABF40540FF571</string>
-				<string>AEDAC4A0A527A8721B219767</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>F23DE3E08E3E1D8652A99936</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6953C88B5D1B09C161164122</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>FBA9E15F1AFE6DD743AB32BD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Photomania-Alamofire-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FE784783E14D8F5EBFCD2AFE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Photomania.debug.xcconfig</string>
+			<string>Pods-Photomania-Alamofire.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>B71463BB9F4EA9AB363249B4</string>
+	<string>C10DA563AECC2F319D830212</string>
 </dict>
 </plist>

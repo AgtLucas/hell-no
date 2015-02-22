@@ -372,7 +372,6 @@
 /* Begin XCBuildConfiguration section */
 		22F2B02519A5C39A00939296 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC354ECD1A997A26001ACC3E /* Photomania.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -414,7 +413,6 @@
 		};
 		22F2B02619A5C39A00939296 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC354ECD1A997A26001ACC3E /* Photomania.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -449,7 +447,7 @@
 		};
 		22F2B02819A5C39A00939296 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC354ECC1A9979E8001ACC3E /* Debug.xcconfig */;
+			baseConfigurationReference = 788897C6B2C638E72AA45EBA /* Pods-Photomania.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -457,12 +455,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SDKROOT[arch=*]" = iphoneos;
 			};
 			name = Debug;
 		};
 		22F2B02919A5C39A00939296 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC354ECE1A997A37001ACC3E /* Release.xcconfig */;
+			baseConfigurationReference = 51086ABF0D9CC0DACC5E19B8 /* Pods-Photomania.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -470,6 +469,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SDKROOT[arch=*]" = iphoneos;
 			};
 			name = Release;
 		};
